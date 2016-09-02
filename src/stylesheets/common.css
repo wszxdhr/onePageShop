@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* line 23, ../sass/common.scss */
+html, body, * {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 28, ../sass/common.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 34, ../sass/common.scss */
+a {
+  text-decoration: none;
+}
+/* line 37, ../sass/common.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 42, ../sass/common.scss */
+li {
+  list-style: none;
+}
+
+/* line 46, ../sass/common.scss */
+h1 {
+  font-size: 0.36rem;
+  color: #343434;
+  font-family: "思源黑体";
+}
+/* line 51, ../sass/common.scss */
+h1.orange {
+  font-size: 0.4rem;
+  color: #ff5200;
+}
+
+/* line 57, ../sass/common.scss */
+h2 {
+  font-size: 0.325rem;
+  color: #4c4c4c;
+  font-family: "思源黑体";
+}
+
+/* line 63, ../sass/common.scss */
+h3 {
+  font-size: 0.325rem;
+  color: #8f8f8f;
+  font-family: "思源黑体";
+}
+
+/* line 69, ../sass/common.scss */
+h4 {
+  font-size: 0.275rem;
+  color: #8f8f8f;
+  font-family: "思源黑体";
+}
+/* line 74, ../sass/common.scss */
+h4.orange {
+  font-size: 0.325rem;
+  color: #ff5200;
+}
+
+/* line 79, ../sass/common.scss */
+.h1 {
+  font-size: 0.36rem;
+  color: #343434;
+  font-family: "思源黑体";
+}
+/* line 84, ../sass/common.scss */
+.h1.orange {
+  font-size: 0.4rem;
+  color: #ff5200;
+}
+
+/* line 90, ../sass/common.scss */
+.h2 {
+  font-size: 0.325rem;
+  color: #4c4c4c;
+  font-family: "思源黑体";
+}
+
+/* line 96, ../sass/common.scss */
+.h3 {
+  font-size: 0.325rem;
+  color: #8f8f8f;
+  font-family: "思源黑体";
+}
+
+/* line 102, ../sass/common.scss */
+.h4 {
+  font-size: 0.275rem;
+  color: #8f8f8f;
+  font-family: "思源黑体";
+}
+/* line 107, ../sass/common.scss */
+.h4.orange {
+  font-size: 0.325rem;
+  color: #ff5200;
+}
+
+/* line 113, ../sass/common.scss */
+.btn-orange {
+  color: #ffffff;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  background-color: #ff5200;
+  border: 0;
+}
+
+/* line 120, ../sass/common.scss */
+.btn-default {
+  color: #4c4c4c;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid #8c8c8c;
+}
+
+/* line 131, ../sass/common.scss */
+.fade-transition {
+  transition: opacity .3s linear;
+  opacity: 1;
+}
+
+/* line 136, ../sass/common.scss */
+.fade-enter, .fade-leave {
+  opacity: 0;
+}

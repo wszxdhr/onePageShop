@@ -1,0 +1,139 @@
+@import "compass/css3";
+$special-font-family: '思源黑体';
+$main-color: #ff5200;
+
+$h1-font-size: .36rem;
+$h1-special-font-size: 0.4rem;
+$h1-font-color: #343434;
+$h1-font-family: $special-font-family;
+
+$h2-font-size: .325rem;
+$h2-font-color: #4c4c4c;
+$h2-font-family: $special-font-family;
+
+$h3-font-size: .325rem;
+$h3-font-color: #8f8f8f;
+$h3-font-family: $special-font-family;
+
+$h4-font-size: .275rem;
+$h4-special-font-size: .325rem;
+$h4-font-color: #8f8f8f;
+$h4-font-family: $special-font-family;
+
+html,body,*{
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-size: $h1-font-size;
+  color: $h1-font-color;
+  font-family: $h1-font-family;
+
+  &.orange {
+    font-size: $h1-special-font-size;
+    color: $main-color;
+  }
+}
+
+h2 {
+  font-size: $h2-font-size;
+  color: $h2-font-color;
+  font-family: $h2-font-family;
+}
+
+h3 {
+  font-size: $h3-font-size;
+  color: $h3-font-color;
+  font-family: $h3-font-family;
+}
+
+h4 {
+  font-size: $h4-font-size;
+  color: $h4-font-color;
+  font-family: $h4-font-family;
+
+  &.orange {
+    font-size: $h4-special-font-size;
+    color: $main-color;
+  }
+}
+.h1 {
+  font-size: $h1-font-size;
+  color: $h1-font-color;
+  font-family: $h1-font-family;
+
+  &.orange {
+    font-size: $h1-special-font-size;
+    color: $main-color;
+  }
+}
+
+.h2 {
+  font-size: $h2-font-size;
+  color: $h2-font-color;
+  font-family: $h2-font-family;
+}
+
+.h3 {
+  font-size: $h3-font-size;
+  color: $h3-font-color;
+  font-family: $h3-font-family;
+}
+
+.h4 {
+  font-size: $h4-font-size;
+  color: $h4-font-color;
+  font-family: $h4-font-family;
+
+  &.orange {
+    font-size: $h4-special-font-size;
+    color: $main-color;
+  }
+}
+
+.btn-orange {
+  color: #ffffff;
+  @include border-radius(0px);
+  background-color: $main-color;
+  border: 0;
+}
+
+.btn-default {
+  color: $h2-font-color;
+  @include border-radius(5px);
+  background-color: transparent;
+  border: 1px solid #8c8c8c;
+}
+
+
+//vue有关的transition
+
+//fade
+.fade-transition {
+  transition: opacity .3s linear;
+  opacity: 1;
+}
+
+.fade-enter, .fade-leave {
+  opacity: 0;
+}
+
