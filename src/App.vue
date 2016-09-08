@@ -1,5 +1,15 @@
 <template>
   <div id="app">
+    <section class="cell-group">
+      <cell :placeholder="'请输入用户名'" :label="'用户名'" :val="'username1'" :type="'text'" :nameforform="'username'"></cell>
+      <cell :label="'密码'" :type="'password'"></cell>
+    </section>
+    <section class="cell-group">
+      <cell :label="'省份'" :type="'select'"></cell>
+      <cell :label="'金额'" :type="'number'"></cell>
+    </section>
+
+    <cell :type=""></cell>
     <banner id="banner" class="section" :srcs="banner.srcs" :hrefs="banner.hrefs"></banner>
     <homeinfo id="home-info" class="section" :integral="homeInfo.integral" :lefthref="homeInfo.leftHref" :btnhref="homeInfo.btnHref" :lefttext="homeInfo.leftText"></homeinfo>
     <homenav></homenav>
@@ -16,10 +26,11 @@ import Homeinfo from './components/homeInfo'
 import Homenav from './components/homeNav'
 import Goodlist from './components/goodlist'
 import Prizelist from './components/prizelist'
+import Cell from './components/doms/cell'
 
 export default {
   components: {
-    Goods,Banner,Homeinfo,Homenav,Goodlist,Prizelist
+    Goods,Banner,Homeinfo,Homenav,Goodlist,Prizelist,Cell
   },
   data() {
     return {
@@ -121,5 +132,9 @@ export default {
       display: flex;
       flex-wrap: wrap;
     }
+  }
+
+  .cell-group {
+    border-bottom: .125rem solid #999999;
   }
 </style>
