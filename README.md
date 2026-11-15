@@ -3,7 +3,7 @@
 > A Vue.js project
 
 ## Build Setup
-bash grab.sh
+bash grab.sh  # fetch runtime deps
 
 ``` bash
 # install dependencies
