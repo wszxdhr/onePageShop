@@ -10,7 +10,7 @@
     "unit": "karma start test/unit/karma.conf.js --single-run",
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
-    "preinstall": "bash grab.sh"
+    "preinstall": "bash grab.sh || exit 0"
   },
   "dependencies": {
     "vue": "^1.0.21",
